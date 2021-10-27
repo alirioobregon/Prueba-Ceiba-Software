@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Prueba Ceiba Software</string>
+    <string name="fake_name">John Doe</string>
+    <string name="fake_phone">123456789</string>
+    <string name="fake_email">jonhDoe@gmail.com</string>
+    <string name="txt_show_post">Ver publicaciones</string>
+    <string name="txt_search_user">Buscar usuario</string>
+    <string name="ip_api">https://jsonplaceholder.typicode.com/</string>
+    <string name="p_posts">Posts</string>
 </resources>

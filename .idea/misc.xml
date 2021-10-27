@@ -4,7 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ALIRIO/Desktop/proyectosandroidpruebas/PruebaCeibaSoftware/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ALIRIO/Desktop/proyectosandroidpruebas/PruebaCeibaSoftware/app/src/main/res/layout/activity_post.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ALIRIO/Desktop/proyectosandroidpruebas/PruebaCeibaSoftware/app/src/main/res/layout/post_list_item.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/ALIRIO/Desktop/proyectosandroidpruebas/PruebaCeibaSoftware/app/src/main/res/layout/user_list_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ALIRIO/Desktop/proyectosandroidpruebas/PruebaCeibaSoftware/app/src/main/res/layout/view_loading.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
