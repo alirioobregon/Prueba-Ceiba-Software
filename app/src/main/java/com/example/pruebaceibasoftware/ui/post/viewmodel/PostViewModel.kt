@@ -5,8 +5,6 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.pruebaceibasoftware.data.api.movement.UserMovements
-import com.example.pruebaceibasoftware.data.entities.PostVO
-import com.example.pruebaceibasoftware.data.entities.UserVO
 import com.example.pruebaceibasoftware.data.repository.UserRepository
 import com.example.pruebaceibasoftware.database.schemas.Posts
 import com.example.pruebaceibasoftware.database.schemas.Users

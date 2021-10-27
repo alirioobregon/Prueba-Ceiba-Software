@@ -1,7 +1,5 @@
 package com.example.pruebaceibasoftware.data.api.movement
 
-import com.example.pruebaceibasoftware.data.entities.PostVO
-import com.example.pruebaceibasoftware.data.entities.UserVO
 import com.example.pruebaceibasoftware.database.schemas.Posts
 import com.example.pruebaceibasoftware.database.schemas.Users
 

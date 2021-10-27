@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import android.view.View
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AlertDialog
@@ -50,8 +51,14 @@ class MainActivity : AppCompatActivity(), MainAdapter.OnUser {
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
                 if (s.toString().trim().isNotEmpty()) {
                     val filter = allUsers.filter { it.name.contains(s.toString().trim(), true) }
+                    if (filter.isNullOrEmpty()) {
+                        binding.txtMessage.visibility = View.VISIBLE
+                    } else {
+                        binding.txtMessage.visibility = View.GONE
+                    }
                     mainAdapter.setData(filter as ArrayList<Users>)
                 } else {
+                    binding.txtMessage.visibility = View.GONE
                     mainAdapter.setData(allUsers)
                 }
             }

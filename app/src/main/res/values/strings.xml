@@ -7,4 +7,5 @@
     <string name="txt_search_user">Buscar usuario</string>
     <string name="ip_api">https://jsonplaceholder.typicode.com/</string>
     <string name="p_posts">Posts</string>
+    <string name="message_empty">List is empty</string>
 </resources>
